@@ -20,6 +20,8 @@
    color: #fff;
    height: 94px;
    position: fixed;
+   left: 0;
+   top: 0;
    z-index: 2;
    width: 100%;
    border-bottom: 1px solid rgba(235, 235, 240, 0.20);
