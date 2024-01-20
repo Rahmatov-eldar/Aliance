@@ -249,6 +249,21 @@ font-size: 1rem;
 font-weight: 600;
 line-height: 160%; 
 }
+.steps-buttons {
+  display: none;
+  height: 40px;
+  justify-content: flex-end;
+}
+.steps-button-prev, 
+.steps-button-next {
+  background: #5C8EE5;
+  height: 100%;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
 .steps-link::before {
   content: "";
   height: .0625rem;
@@ -299,6 +314,9 @@ line-height: 160%;
     padding-right: 2rem;
   }
   .slider-buttons {
+    display: flex;
+  }
+  .steps-buttons {
     display: flex;
   }
 }
