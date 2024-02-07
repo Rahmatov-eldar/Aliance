@@ -117,7 +117,7 @@
       <div class="header-content">
         <div class="seporator"></div>
         <h1 class="header-title">
-          Комплексное обеспечение товарами и расходными материалами бизнеса
+          <?php echo "Главная страница"; ?>
         </h1>
         <p class="header-text">
           Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высококачественный прототип будущего проекта напрямую зависит от анализа существующих паттернов поведения.
@@ -518,8 +518,8 @@
     <div class="container">
      <div class="footer-wrapper">
       <div class="footer-legal">
-        <p class="footer-copyright">&copy; 2022 «Aliance Production». Все права защищены.</p>
-        <a href="#" class=" ">Политики конфиденциальности</a>
+        <p class="footer-copyright">&copy; <?php echo ("d.m.Y") ?> «Aliance Production». Все права защищены.</p>
+        <a href="#" class="footer-policy">Политики конфиденциальности</a>
       </div>
       <!-- /.footer-legal -->
       <div class="footer-author">
