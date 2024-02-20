@@ -96,6 +96,7 @@
     </ul>
     <div class="header-phone">
       <svg class="phone-icon" width="24" height="24">
+        
         <use href="img/sprite.svg#phone"></use>
       </svg>
       <a href="tel:+74996861014" class="header-phone-link">

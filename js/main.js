@@ -120,4 +120,32 @@ mMenuToggle.addEventListener("click", (event) => {
     if (event.key == "Escape" && modal.classList.contains("is-open")) {
       modal.classList.toggle("is-open");
     }
-  })
+  });
+
+  const forms = document.querySelectorAll("form"); //Собираем формы 
+  forms.forEach((form) => {
+    const validation = new JustValidate(form, {
+      errorFieldCssClass: 'is-invalid',
+});
+validation
+.addField("[name=username]", [
+  {
+    rule: "required",
+    errorMessage: "Укажите имя"
+  },
+  {
+    rule: 'maxLength',
+    value: 50,
+    errorMessage: "Максимально 50 символов"
+  },
+])
+.addField("[name=userphone", [
+  {
+    rule: "required",
+    errorMessage: "Укажите телефон",
+  },
+])
+.onSuccess((event) => {
+  console.log(event.target.getAttribite("method"));
+});
+});
