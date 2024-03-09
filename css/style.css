@@ -892,6 +892,32 @@ line-height: 160%;
   width: 100%;
   margin-bottom: 24px;
 }
+/* hover effects */
+@media (hover: hover) {
+  .button-link:hover:before {
+    width: 60px;
+  }
+  .card:hover .card-title {
+    color: #5c8ee6;
+  }
+  .card:hover {
+    border-color: #5c8ee6;
+  }
+  .trademark-card:hover {
+    border-color: #5c8ee6;
+  }
+  .trademark-card:hover .trademark-card-logo {
+    fill: #5c8ee6;
+  }
+  .trademark-card:hover .trademark-card-title {
+    color: #5c8ee6;
+  }
+  .clinets-logo-item:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+}
+
 @media (max-width: 1700px) {
   html {
     font-size: 14px;
@@ -902,7 +928,7 @@ line-height: 160%;
 }
 @media (max-width: 1460px) {
   html {
-    font-size: .8125rem;
+    font-size: 13px;
   }
   .header-logo {
     padding: 2rem;
@@ -973,6 +999,14 @@ line-height: 160%;
   .header-logo {
     flex-grow: 1;
     justify-content: center;
+    border: none;
+  }
+  .logo-svg {
+    max-width: 10rem;
+  }
+  .navbar-button {
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
   }
   .mobile-menu-toggle {
     width: 80px;
@@ -1020,6 +1054,9 @@ line-height: 160%;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+  .mobile-menu.is-open {
+    display: block;
+  }
   .mobile-menu-nav {
     list-style: none;
     padding: 0;
@@ -1048,7 +1085,7 @@ line-height: 160%;
   }
   .mobile-phone {
     display: block;
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 600;
     line-height: 160%; 
     text-decoration-line: underline;
