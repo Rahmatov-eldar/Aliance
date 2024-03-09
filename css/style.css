@@ -1,3 +1,6 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap");
+@import url("swiper-bundle.min.css");
 * {
   box-sizing: border-box;
 }
@@ -63,8 +66,11 @@ body {
 .header {
   padding: 5.875rem;
 }
+.no-webp .header-image {
+  background-image: url("../img/header-bg.jpeg");
+}
 .header-image {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url("../img/header-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom 3.75rem;
