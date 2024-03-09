@@ -1,8 +1,12 @@
 <section class="section founder section-founder">
- <img src="img/founder.jpg" alt="founder" class="founder-photo">
+  <picture>
+    <source type="image/webp" srcset="img/founder.webp"> 
+    <source type="image/jpeg" srcset="img/founder.jpg"> 
+    <img src="img/founder.jpg" class="founder-photo" alt="founder"> 
+  </picture>
   <div class="container">
     <div class="founder-content-wrapper">
-      <div class="founder-content">
+      <div class="founder-content"> 
         <div class="seporator"></div>
         <h2 class="section-title">Отношение к делу <br />и к клиентам</h2>
         <p class="founder-text">
