@@ -109,8 +109,7 @@
     </button>
   </nav>
   <!-- /.novbar -->
-  <header class="header header-image">
-
+ <header class="header header-image">
     <div class="container">
       <div class="header-content">
         <div class="seporator"></div>
@@ -125,6 +124,7 @@
         </button>
       </div>  
       <!-- /.header-content -->
+        
       <!-- основной блок слайдера -->
       <div class="swiper features-slider">
           <!-- обертка слайдера -->
