@@ -181,7 +181,7 @@ body {
   position: relative;
   z-index: 1;
   color: #fff;
-  left: .5rem;
+  
 }
 .page-header {
   padding-top: 9.375rem;
@@ -929,9 +929,9 @@ line-height: 160%;
   html {
     font-size: 14px;
   }
-}
-.header-image {
-  background-position: center;
+  .header-image {
+    background-position: center;
+  }
 }
 @media (max-width: 1460px) {
   html {
@@ -949,7 +949,7 @@ line-height: 160%;
   .header-nav-item:not(:last-child) {
     margin-right: 1rem;
   }
-  .header-phone{
+  .header-phone {
     margin-right: 2rem;
   }
 }
@@ -961,7 +961,7 @@ line-height: 160%;
     display: none;
   }
   .navbar {
-    height: 5rem;
+    height: 5.8rem;
   }
   .navbar-button {
     padding-left: 2rem;
@@ -973,7 +973,7 @@ line-height: 160%;
   .primary-buttons-wrapper {
     height: 40px;
   }
-  .primary-button-prev, 
+  .primary-button-prev,
   .primary-button-next {
     width: 60px;
   }
@@ -1008,21 +1008,21 @@ line-height: 160%;
     justify-content: center;
     border: none;
   }
-  .logo-svg {
-    max-width: 10rem;
-  }
-  .navbar-button {
-    padding-left: 2.3rem;
-    padding-right: 2.3rem;
-  }
+    .logo-svg {
+      max-width: 10rem;
+    }
+    .navbar-button {
+      padding-left: 2.3rem;
+      padding-right: 2.3rem;
+    }
   .mobile-menu-toggle {
     width: 80px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.8rem;    
-    border-right: .0625rem solid rgba(235, 235, 240, 0.20);
+    padding: 2.3rem 2.5rem;
+    border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .navbar-light .mobile-menu-line {
     background-color: #333;
@@ -1040,11 +1040,8 @@ line-height: 160%;
     display: none;
   }
   .navbar-button .button-icon {
+    display: block;
     fill: #ffffff;
-    display: block;
-  }
-  .mobile-menu.is-open {
-    display: block;
   }
   .mobile-menu {
     position: fixed;
@@ -1061,9 +1058,9 @@ line-height: 160%;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-  .mobile-menu.is-open {
-    display: block;
-  }
+    .mobile-menu.is-open {
+      display: block;
+    }
   .mobile-menu-nav {
     list-style: none;
     padding: 0;
@@ -1073,10 +1070,10 @@ line-height: 160%;
   }
   .mobile-menu-link {
     text-decoration: none;
-    color: #292D33;
-    font-size: 14px;
     font-weight: 700;
+    font-size: 14px;
     line-height: 160%;
+    color: #292d33;
   }
   .mobile-submenu {
     list-style-type: none;
@@ -1086,18 +1083,19 @@ line-height: 160%;
   }
   .mobile-submenu-link {
     text-decoration: none;
-    color: #828A99;
+    color: #828a99;
     font-size: 14px;
-    line-height: 160%; 
+    line-height: 160%;
   }
   .mobile-phone {
     display: block;
-    font-size: 20px;
     font-weight: 600;
-    line-height: 160%; 
+    font-size: 20px;
+    line-height: 160%;
+    color: #292d33;
+    -webkit-text-decoration-line: underline;
     text-decoration-line: underline;
-    color:#292D33;
-    border-top: 1px solid #EBEBF0;
+    border-top: 1px solid #ebebf0;
     padding-top: 2rem;
     margin-bottom: 1.5rem;
   }
@@ -1107,14 +1105,14 @@ line-height: 160%;
     gap: 1rem;
     margin-bottom: 1rem;
   }
-  .mobile-info-address, 
+  .mobile-info-address,
   .mobile-info-email {
     text-decoration: none;
     font-style: normal;
-    color: #292D33;
-    font-size: 14px;
     font-weight: 400;
-    line-height: 160%; 
+    font-size: 14px;
+    line-height: 160%;
+    color: #292d33;
   }
   .close-menu .mobile-menu-line:nth-child(2) {
     display: none;
@@ -1124,13 +1122,13 @@ line-height: 160%;
   }
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-9px);
-}
-.trademark-cards {
-  flex-direction: column;
-}
-.clients-wrapper {
-  flex-direction: column;
-}
+  }
+  .trademark-cards {
+    flex-direction: column;
+  }
+  .clients-wrapper {
+    flex-direction: column;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -1140,7 +1138,7 @@ line-height: 160%;
     font-size: 4rem;
   }
   .header-content {
-    padding-top: 3rem;
+    padding-top: 4rem;
   }
   .card {
     flex-basis: 100%;
@@ -1155,18 +1153,13 @@ line-height: 160%;
   .container {
     max-width: 90%;
   }
-  .header-title {
-    font-size: 2rem;
-  }
-  .header-content {
-    padding-top: 2rem;
-  }
   .trademark-card {
-    grid-template-areas: 
+    grid-template-areas:
       "logo title"
-      "text text"
+      "text text";
   }
   .clients-list {
+    -moz-columns: 1;
     columns: 1;
   }
   .clinets-logo-item {
