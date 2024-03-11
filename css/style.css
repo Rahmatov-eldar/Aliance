@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 1rem;
+  font-size: 16px;
 }
 @font-face {
   font-family: "Bebas Neue Book";
@@ -13,7 +13,7 @@ html {
   font-weight: normal;
   font-display: swap;
   font-style: normal;
-  }
+}
 body {
   font-family: 'Noto Sans', sans-serif;
 }
@@ -64,7 +64,7 @@ body {
   fill: #292D33;
 }
 .header {
-  padding: 5.875rem;
+  padding-top: 5.875rem;
 }
 .no-webp .header-image {
   background-image: url("../img/header-bg.jpeg");
@@ -73,9 +73,8 @@ body {
   background-image: url("../img/header-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom 3.75rem;
+  background-position: center bottom -0.25rem;
   position: relative;
-  min-width: 100vh;
 }
 .header-image::before {
   content: "";
@@ -306,9 +305,9 @@ body {
   margin-bottom: 0;
 }
 .section {
-  margin-top: 1.5rem;
+  margin-top: 5.9375rem;
   margin-bottom: 9.375rem;
-  padding-left: 1.25rem;
+  padding-left: .9375rem;
 }
 .section-title {
   font-family: "Bebas Neue Book";
