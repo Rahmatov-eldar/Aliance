@@ -482,6 +482,14 @@ line-height: 160%;
 .trademark-card:hover .trademark-card-title {
   color: #5C8EE5;
 }
+.woman {
+  position: relative;
+}
+.woman-photo {
+  position: absolute;
+  right: 7.5rem;
+  top: 98.75rem;
+}
 .founder {
   position: relative;
   min-height: 41.25rem;

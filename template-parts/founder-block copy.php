@@ -1,7 +1,15 @@
 <section class="section founder section-founder">
+<a href="./" class="">
+      <svg class="">
+        <use href="img/sprite.svg#left"></use>
+      </svg>
+      <svg class="">
+        <use href="img/sprite.svg#right"></use>
+      </svg>
+    </a>
   <picture>
-    <source type="image/webp" srcset="img/.webp"> 
-    <source type="image/jpeg" srcset="img/.jpg"> 
+    <source type="image/webp" srcset="img/factory.webp"> 
+    <source type="image/jpeg" srcset="img/factory.jpg"> 
     <img src="" class="" alt=""> 
   </picture>
   <div class="container">
@@ -17,6 +25,7 @@
         участия.
         </p>  
       </div>
+      </a>
       <!-- /.founder-content -->
     </div>
     <!-- /.founder-content-wrapper -->

@@ -34,6 +34,11 @@
           <use href="/img/sprite.svg#boots"></use>
         </svg>Косметика по уходу за обувью</li>
          </ul>
+         <picture>
+            <source type="image/webp" srcset="img/woman.webp"> 
+            <source type="image/jpeg" srcset="img/woman.jpg"> 
+            <img src="img/woman.jpg" class="woman-photo" alt="woman"> 
+          </picture>
       <!-- /.clients-wrapper -->
     </div>
     <!-- /.container -->

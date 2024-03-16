@@ -93,7 +93,8 @@
             <source type="image/webp" srcset="img/client.webp"> 
             <source type="image/jpeg" srcset="img/client.png"> 
             <img src="img/client.png" class="clients-logo" alt="client"> 
-          </picture></a></div>
+          </picture></a>
+        </div>
         <!-- /.clients-logo -->
       </div>
       <!-- /.clients-wrapper -->

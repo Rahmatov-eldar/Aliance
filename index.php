@@ -127,7 +127,7 @@
       </div>  
       <!-- /.header-content -->
         
-      <!-- основной блок слайдера -->
+      <!-- основной блок сла йдера -->
       <?php include_once("./template-parts/swiper-block.php")?>
     <!-- /.container -->  
   </header>
@@ -175,7 +175,7 @@
 
   <?php $block_title  = "собственные торговые марки";
   include_once("./template-parts/trademarks-block.php")?> 
-  d
+  <?php include_once("./template-parts/founder-block.php")?>
   <?php include_once("./template-parts/clients-block.php")?>
 
   <section class="section blog">
