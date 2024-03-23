@@ -1,4 +1,9 @@
-<section class="section founder section-founder">
+<section class="section factory section-factory">
+<picture>
+    <source type="image/webp" srcset="img/factory.webp"> 
+    <source type="image/jpeg" srcset="img/factory.jpg"> 
+    <img src="" class="" alt=""> 
+  </picture>
 <a href="./" class="">
       <svg class="">
         <use href="img/sprite.svg#left"></use>
@@ -7,11 +12,6 @@
         <use href="img/sprite.svg#right"></use>
       </svg>
     </a>
-  <picture>
-    <source type="image/webp" srcset="img/factory.webp"> 
-    <source type="image/jpeg" srcset="img/factory.jpg"> 
-    <img src="" class="" alt=""> 
-  </picture>
   <div class="container">
     <div class="founder-content-wrapper">
       <div class="founder-content"> 

@@ -269,14 +269,49 @@ body {
   line-height: 160%;
   margin-bottom: 3.125rem;
 }
+.header-rahmatov {
+  display: flex;
+  align-items: stretch;
+  padding: 13.75rem;
+  margin-top: 6.25rem;
+  margin-bottom: -100px;
+  list-style: none;
+  color: #292D33
+}
+.header-rahmatov-item {
+  padding: 1.875rem 3.5625rem;
+  height: auto;
+  width: 18rem;
+  border: .0625rem solid rgba(235, 235, 240, 0.20);
+}
+.eldar-buttons {
+  display: none;
+  height: 2.75rem;
+}
+.eldar-button-prev, 
+.eldar-button-next {
+  height: 100%;
+  flex-basis: 50%;
+  border: .0625rem solid rgba(235, 235, 240, 0.20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.header-rahmatov-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  margin-bottom: 0;
+}
 .header-features {
   display: flex;
-  min-height: 10.5rem;
+  align-items: stretch;
   padding: 0;
   margin-top: 6.25rem;
+  margin-bottom: 0;
   list-style: none;
   color: #fff;
-  position: relative;
 }
 .header-features-item {
   padding: 1.875rem 3.5625rem;
@@ -333,11 +368,11 @@ display: flex;
 align-items: center;
 }
 .steps-num::after {
-  content: "";
-  height: .0625rem;
-  background: #EBEBF0;
-  width: 100%;
-  margin-left: 1.875rem;
+content: "";
+height: .0625rem;
+background: #EBEBF0;
+width: 100%;
+margin-left: 1.875rem;
 }
 .steps-title {
 color: #292D33;
@@ -484,11 +519,15 @@ line-height: 160%;
 }
 .woman {
   position: relative;
+  min-height: 41.25rem;
 }
 .woman-photo {
   position: absolute;
-  right: 7.5rem;
-  top: 98.75rem;
+  width: 37.5rem;
+  height: 46.875rem;
+  top: -3.125rem;
+  left: 67.5rem;
+  object-fit: cover;
 }
 .founder {
   position: relative;
