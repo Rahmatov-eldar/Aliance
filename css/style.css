@@ -344,6 +344,13 @@ body {
   margin-bottom: 9.375rem;
   padding-left: .9375rem;
 }
+.section-ed {
+  font-family: "Bebas Neue Book";
+  font-size: 2.5rem;
+  line-height: 44.8px;  
+  margin-top: 5.625rem;
+  margin-bottom: 1.25rem;
+}
 .section-title {
   font-family: "Bebas Neue Book";
   color:#292D33;
