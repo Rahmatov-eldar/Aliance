@@ -49,7 +49,7 @@
       </ul>
     </li>
       <li class="mobile-menu-nav-item"><a href="" class="mobile-menu-link ">Новости</a></li>
-      <li class="mobile-menu-nav-item"><a href="" class="mobile-menu-link">Контакты</a></li>
+      <li class="mobile-menu-nav-item"><a href="#" class="mobile-menu-link">Контакты</a></li>
     </ul>
     <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
     <div class="mobile-info">
@@ -92,7 +92,7 @@
       <li class="header-nav-item"><a href="./contracts.php" class="header-nav-link">Контрактное производство</a></li>
       <li class="header-nav-item"><a href="./trademarks.php" class="header-nav-link">Собственные торговые марки</a></li>
       <li class="header-nav-item"><a href="#" class="header-nav-link ">Новости</a></li>
-      <li class="header-nav-item"><a href="#" class="header-nav-link">Контакты</a></li>
+      <li class="header-nav-item"><a href="./contact.php" class="header-nav-link">Контакты</a></li>
     </ul>
     <div class="header-phone">
       <svg class="phone-icon" width="24" height="24">
