@@ -6,5 +6,6 @@ include_once("./template-parts/founder-block copy.php");
 include_once("./template-parts/swiper-block.php");
 include_once("./template-parts/clients-block copy.php");
 include_once("./template-parts/founder-block.php");
+include_once("./template-parts/section-blog.php");
 include_once("./template-parts/clients-block.php")?>
 <?php include_once("footer.php");?>

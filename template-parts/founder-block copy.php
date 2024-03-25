@@ -1,16 +1,10 @@
 <section class="section factory section-factory">
 <picture>
-    <source type="image/webp" srcset="img/factory.webp"> 
-    <source type="image/jpeg" srcset="img/factory.jpg"> 
+    <source type="image/webp" srcset="img/.webp"> 
+    <source type="image/jpeg" srcset="img/.jpg"> 
     <img src="" class="" alt=""> 
   </picture>
 <a href="./" class="">
-      <svg class="">
-        <use href="img/sprite.svg#left"></use>
-      </svg>
-      <svg class="">
-        <use href="img/sprite.svg#right"></use>
-      </svg>
     </a>
   <div class="container">
     <div class="founder-content-wrapper">
