@@ -552,6 +552,15 @@ line-height: 160%;
   left: 67.5rem;
   object-fit: cover;
 }
+.factory {
+  position: relative;
+  min-height: 41.25rem;
+}
+.factory-photo {
+  position: absolute;
+  left: 240px;
+  object-fit: cover;
+}
 .founder {
   position: relative;
   min-height: 41.25rem;
@@ -968,7 +977,7 @@ line-height: 160%;
   border: 1px solid #ebebf0;
 }
 .modal-title {
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue Book";
   font-style: normal;
   font-weight: 400;
   font-size: 3rem;

@@ -48,8 +48,8 @@
         </li>
       </ul>
     </li>
-      <li class="mobile-menu-nav-item"><a href="" class="mobile-menu-link ">Новости</a></li>
-      <li class="mobile-menu-nav-item"><a href="#" class="mobile-menu-link">Контакты</a></li>
+      <li class="mobile-menu-nav-item"><a href="#" class="mobile-menu-link ">Новости</a></li>
+      <li class="mobile-menu-nav-item"><a href="./contact.php" class="mobile-menu-link">Контакты</a></li>
     </ul>
     <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
     <div class="mobile-info">

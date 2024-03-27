@@ -1,11 +1,9 @@
 <section class="section factory section-factory">
 <picture>
-    <source type="image/webp" srcset="img/.webp"> 
-    <source type="image/jpeg" srcset="img/.jpg"> 
-    <img src="" class="" alt=""> 
+    <source type="image/webp" srcset="img/Group 57.webp"> 
+    <source type="image/jpeg" srcset="img/Group 57.png"> 
+    <img src="img/Group 57.png" class="factory-photo" alt="factory"> 
   </picture>
-<a href="./" class="">
-    </a>
   <div class="container">
     <div class="founder-content-wrapper">
       <div class="founder-content"> 
