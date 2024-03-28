@@ -3,8 +3,7 @@
       <div class="clients-wrapper">
         <div class="clients-content">
           <div class="seporator"></div>
-            <h2 class="section-title">Наше производство
-         </h2>
+            <h2 class="section-title">Наше производство</h2>
          <picture>
             <source type="image/webp" srcset="img/woman.webp"> 
             <source type="image/jpeg" srcset="img/woman.jpg"> 
