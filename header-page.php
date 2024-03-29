@@ -15,11 +15,11 @@
 <body>
   <div class="mobile-menu">
     <ul class="mobile-menu-nav">
-      <li class="mobile-menu-nav-item"><a href="" class="mobile-menu-link">О компании</a></li>
-      <li class="mobile-menu-nav-item"><a href="" class="mobile-menu-link">Контрактное производство</a>
+      <li class="mobile-menu-nav-item"><a href="./about.php" class="mobile-menu-link">О компании</a></li>
+      <li class="mobile-menu-nav-item"><a href="./contracts.php" class="mobile-menu-link">Контрактное производство</a>
       <ul class="mobile-submenu">
         <li class="mobile-submenu-item">
-          <a class="mobile-submenu-link" href="#">Автомобильная химия</a>
+          <a class="mobile-submenu-link" href="./produck_avtohim.php">Автомобильная химия</a>
         </li>
         <li class="mobile-submenu-item">
           <a class="mobile-submenu-link" href="#">Бытовая химия</a>
@@ -41,7 +41,7 @@
       <li class="mobile-menu-nav-item"><a href="" class="mobile-menu-link">Собственные торговые марки</a>
       <ul class="mobile-submenu">
         <li class="mobile-submenu-item">
-          <a class="mobile-submenu-link" href="#">Автохимия AG-Tech</a>
+          <a class="mobile-submenu-link" href="./product_ag-tech.php">Автохимия AG-Tech</a>
         </li>
         <li class="mobile-submenu-item">
           <a class="mobile-submenu-link" href="#">Автохимия AP</a>
@@ -92,7 +92,7 @@
       <li class="header-nav-item"><a href="./contracts.php" class="header-nav-link">Контрактное производство</a></li>
       <li class="header-nav-item"><a href="./trademarks.php" class="header-nav-link">Собственные торговые марки</a></li>
       <li class="header-nav-item"><a href="#" class="header-nav-link ">Новости</a></li>
-      <li class="header-nav-item"><a href="#" class="header-nav-link">Контакты</a></li>
+      <li class="header-nav-item"><a href="./contact.php" class="header-nav-link">Контакты</a></li>
     </ul>
     <div class="header-phone">
       <svg class="phone-icon" width="24" height="24">

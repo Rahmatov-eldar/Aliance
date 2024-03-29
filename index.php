@@ -19,7 +19,7 @@
     </li>
       <ul class="mobile-submenu">
         <li class="mobile-submenu-item">
-          <a class="mobile-submenu-link" href="#">Автомобильная химия</a>
+          <a class="mobile-submenu-link" href="./produck_avtohim.php">Автомобильная химия</a>
         </li>
         <li class="mobile-submenu-item">
           <a class="mobile-submenu-link" href="#">Бытовая химия</a>
@@ -41,9 +41,9 @@
       <li class="mobile-menu-nav-item"><a href="./trademarks.php" class="mobile-menu-link">Собственные торговые марки</a>
       <ul class="mobile-submenu">
         <li class="mobile-submenu-item">
-          <a class="mobile-submenu-link" href="#">Автохимия AG-Tech</a>
+          <a class="mobile-submenu-link" href="./product_ag-tech.php">Автохимия AG-Tech</a>
         </li>
-        <li class="mobile-submenu-item">
+        <li class="mobile-submenu-item">  
           <a class="mobile-submenu-link" href="#">Автохимия AP</a>
         </li>
       </ul>
