@@ -1,14 +1,15 @@
 <section class="cta">
-    <div class="bg-grey section-cta">
+    <div class="bg-grey section-gta">
     <picture>
-          <source type="image/webp" srcset="img/.webp"> 
-          <source type="image/jpeg" srcset="img/.png"> 
-          <img src="img/.png" alt="call to action" class="gta-image" />
+          <source type="image/webp" srcset="img/gta.webp"> 
+          <source type="image/jpeg" srcset="img/gta.png"> 
+          <img src="img/gta.png" alt="" class="gta-image" />
         </picture>
       <div class="cta-form-wrapper container">
         <form action="handler.php" method="POST" class="cta-form">
-         <div class="seporator"></div>
-          <h2 class="section-title cta-form-title">Генеральный дистрибьютор премиальной автохимии</h2>
+         <div class="seporator">
+          <h2 class="sectiong-title cta-form-title">Генеральный дистрибьютор премиальной автохимии</h2>
+          </div>
           <p class="gta-form-text">Внезапно, активно развивающиеся страны третьего мира могут быть объявлены нарушающими общечеловеческие нормы этики и морали.</p>
         </form>
         <ul class="gta-list">

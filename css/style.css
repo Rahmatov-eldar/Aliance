@@ -357,6 +357,21 @@ body {
   font-size: 3.75rem;    
   line-height: 120%;
 }
+.sectiong-title {
+  font-family: "Bebas Neue Book";
+  color:#292D33;
+  font-size: 3.75rem;    
+  line-height: 120%;
+}
+.cta-form-title {
+  position: absolute;
+  width: 720px;
+  height: 144px;
+  left: 240px;
+  right: -240px;
+  top: 1764px;
+  bottom: -1732px;  
+}
 .steps {
   display: flex;
   list-style: none;
@@ -643,12 +658,14 @@ line-height: 160%;
   columns: 2 auto;
 }
 .gta-list {
-  list-style-type: none;
-  padding: 0;
   columns: 2 auto;
+  position: absolute;
   width: 670px;
   height: 72px;
   left: 240px;
+  right: 1010px;  
+  top: 2010px;
+  bottom: -1406px;  
 }
 .auto-list {
   list-style-type: none;
@@ -780,6 +797,12 @@ line-height: 160%;
   margin-top: 9.375rem;
   padding-bottom: 6.25rem;
 }
+.sectiong-gta {
+  position: relative;
+  padding-top: 6.25rem;
+  margin-top: 9.375rem;
+  padding-bottom: 6.25rem;
+}
 .cta-image {
   position: absolute;
   bottom: 0;
@@ -787,9 +810,14 @@ line-height: 160%;
   max-width: 45rem;
   width: 50%;
 }
+.gta-image {
+  position: relative;
+  width: 960px;
+  height: 676px;  
+  left: 960px;
+}
 .cta-form-wrapper {
   display: flex;
-  justify-content: flex-end;
 }
 .cta-form {
   max-width: 52.5rem;
@@ -805,20 +833,20 @@ line-height: 160%;
   max-width: 40rem; 
 }
 .gta-form-text {
-  color:#828A99;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%;  
-  margin-top: 1.375rem;
-  margin-bottom: 2.5rem;
-  max-width: 40rem; 
+  position: absolute;
   width: 720px;
   height: 52px;
-  top: 1928px;
   left: 240px;
-  gap: 0px;
-  opacity: 0px;
+  right: 960px;  
+  top: 1928px;
+  bottom: -1304px;
+  color: rgb(130, 138, 153);
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;  
 }
 .input-group-wrapper {
   display: flex; 
