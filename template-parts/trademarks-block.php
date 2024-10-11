@@ -7,7 +7,7 @@
     }
     ?>
     <div class="trademark-cards">
-      <div class="trademark-card">
+      <a href="./product_ag-tech.php" class="trademark-card">
         <svg class="trademark-card-logo">
           <use href="img/sprite.svg#AGTECH"></use>
         </svg>
@@ -17,7 +17,7 @@
           рациональное мышление создаёт предпосылки для поставленных
           обществом задач.
         </p>
-      </div>
+  </a>
       <div class="trademark-card">
         <svg class="trademark-card-logo">
           <use href="img/sprite.svg#AP"></use>
